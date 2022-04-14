@@ -35,14 +35,21 @@ namespace AssignPP01
 
             Console.WriteLine("line1 :" + line1);
             Console.WriteLine("line2 :" + line2);
+
             if (line1 == line2)
             {
                 Console.WriteLine("Both are equal");
             }
+            else if (line2 > line1)
+            {
+                Console.WriteLine("line2 is greater than line1");
+            }
             else
             {
-                Console.WriteLine("Both are not Equal");
+                Console.WriteLine("line1 is greater than line2");
             }
+            double result = line2 - line1;
+            Console.WriteLine("Other line is greater than:" + result);
 
         }
 
